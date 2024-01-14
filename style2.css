@@ -1,0 +1,101 @@
+body{
+    background-color: #1B2F33;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+     
+    margin: 0;
+    padding: 0;
+    text-rendering: optimizeLegibility;
+    text-align: center;
+
+}
+.container{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+h1{ 
+    color: #BCE7FD ;
+    font-size: 4rem;
+    margin-bottom: 0;
+    margin-top: 1rem;
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1vmin;
+}
+.box{
+    background-color: #28502E;
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 10px;
+    color: #EF3054;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    font-size: 8vmin;
+
+}
+
+.reset-btn{
+    background-color: #8C7051;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    color: #47682C;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.5;
+    margin: 5px 0;
+    padding: 10px 20px;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    width: 15%;
+}
+.new-game-btn{
+    background-color: #8C7051;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    color: #47682C;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.5;
+    margin: 5px 0;
+    padding: 10px 20px;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    width: 15%;
+}
+.hide{
+    display: none;
+}
+.msg-block{
+    
+    background-color: #1B2F33;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    padding: 20px;
+    margin: 5px 0;
+    text-align: center;
+    color: #BCE7FD;
+    font-size: 50px;
+}
+ 
