@@ -30,9 +30,6 @@ If you'd like to contribute to this project, please follow these steps:
 5. Push to the branch: `git push origin <branch-name>`
 6. Create a new Pull Request.
 
-## License
-
-Include information about the license here.
 
 ## Contact
 
