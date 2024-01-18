@@ -1,6 +1,6 @@
 # X-O-game
 #  
-
+ Check it out [here](https://sanchit-joshi.github.io/X-O-game)
 This repository contains the source code for a simple X-O game.
 
 ## Description
